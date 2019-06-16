@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const User = require('../models/userModels');
 const passport = require('passport');
 const keyPublishable = 'pk_test_m7ltFnHSd4IR7ItEO0GB80Cx00g1qDTx61';
-const keySecret = "sk_test_rQhGlOMNXMMfF0X19pdlekas00ZjP219T3";
+const keySecret = 'sk_test_rQhGlOMNXMMfF0X19pdlekas00ZjP219T3';
 
 const stripe = require("stripe")(keySecret);
 
